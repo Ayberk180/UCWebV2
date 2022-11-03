@@ -1,6 +1,6 @@
 import React from 'react'
 
-function contact() {
+function Contact() {
   return (
     <div className='w-11/12 mx-auto outline outline-teal-300'>
         <div>contact</div>
@@ -8,4 +8,4 @@ function contact() {
   )
 }
 
-export default contact
+export default Contact

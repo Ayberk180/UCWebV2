@@ -3,16 +3,22 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Modal from '../components/modal'
 import Navbar from '../components/navbar'
+import QuickLinks from '../components/quickLinks'
 import mosque from '../images/blueMosque.jpg'
 
 export default function Home() {
   return (
     <div>
-      <h1 className='text-3xl font-bold underline'>Bismillah</h1>
-      <div className='w-9/12 mx-auto'>
-        <div className='flex flex-row justify-center p-8 shadow-lg md:justify-between rounded-xl bg-wisp-pink'>
+      <div className='w-9/12 mx-auto mt-5'>
+        <div className='flex flex-col items-center p-6 my-5 text-center rounded-xl bg-[#f5dcb2] '>
+          <p className='text-3xl font-bold text-blue-magenta'>Announcements</p>
+          <div className='w-3/4 text-blue-magenta '>
+            <p>Youth Islam courses have begun! For Boys and Girls <strong>AGE 7 AND OLDER</strong> , our weekend Islam courses will consist of teaching students to read Quran, memorizing basic and advanced surahs, and the foundations of Islam. Classes will be held on Saturdays and Sundays from 9am-1:30pm. </p>
+          </div>
+        </div>
+        <div className='flex flex-row justify-center p-6 shadow-lg md:justify-between rounded-xl bg-wisp-pink'>
           <div className='flex flex-col justify-center'>
-            <p className='lg:text-5xl text-3xl font-semibold text-[#575a69]'>United Islamic Center</p>
+            <p className='text-3xl font-semibold lg:text-5xl text-dark-gray'>United Islamic Center</p>
             <p className='font-semibold lg:text-xl text-md'>408 Knickerbocker Ave </p>
             <p className='font-semibold lg:text-xl text-md'>Paterson, NJ 07503</p>
             <p className='font-semibold lg:text-xl text-md'>(973) 345-6584</p>        
@@ -21,15 +27,7 @@ export default function Home() {
             <Image className='' src={mosque} alt="There Should be a mosque here" />
           </div>
         </div>
-        <div className='flex justify-center '>
-          
-        </div>
-        <div className='flex flex-col items-center my-5 text-center '>
-          <p className='text-3xl font-bold'>Announcements</p>
-          <div className='w-3/4 '>
-            <p>Youth Islam courses have begun! For Boys and Girls <strong>AGE 7 AND OLDER</strong> Our weekend Islam courses will consist of teaching students to read Quran, memorizing basic and advanced surahs, and the foundations of faith. Classes will be held on Saturdays and Sundays from 9am-1:30pm. </p>
-          </div>
-        </div>
+        <QuickLinks />
         <div className='flex flex-col justify-center my-5 text-center'>
           <p className='justify-center text-3xl font-bold'>Our Mission</p>
           <p>United Islamic Center is dedicated to providing a safe environment for people to learn and worship in the name of Allah (saw) </p>

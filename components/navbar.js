@@ -7,42 +7,42 @@ function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
-      <nav className="bg-gray-800">
-        <div className="max-w-full px-4 sm:px-6 lg:px-8 outline outline-teal-400">
-          <div className="flex items-center justify-between w-11/12 h-16 mx-auto outline outline-orange-600">
+      <nav className="bg-[#2e2a3e]">
+        <div className="max-w-full px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between w-11/12 h-16 mx-auto">
             <div className="flex items-center flex-shrink-0">
               <FaMosque className='w-8 h-8 text-white' />
               <h1 className='ml-4 text-2xl text-white'>Ulu Cami</h1>
             </div>
-            <div className="flex items-center outline outline-pink-400">
+            <div className="flex items-center">
               <div className="hidden md:block">
                 <div className="flex items-baseline space-x-4">
                   <Link href="/">
-                    <a className="px-3 py-2 text-sm font-medium text-white rounded-md hover:bg-gray-700">                      
+                    <a className="px-3 py-2 font-medium text-white rounded-md text-md hover:text-tan">                      
                       Home
                     </a>
                   </Link>
 
                   <Link href="/staff">
-                    <a className="px-3 py-2 text-sm font-medium text-gray-300 rounded-md hover:bg-gray-700 hover:text-white">
+                    <a className="px-3 py-2 font-medium text-gray-300 rounded-md text-md hover:text-tan">
                       Staff
                     </a>
                   </Link>
 
                   <Link href="/services">
-                    <a className="px-3 py-2 text-sm font-medium text-gray-300 rounded-md hover:bg-gray-700 hover:text-white">
+                    <a className="px-3 py-2 font-medium text-gray-300 rounded-md text-md hover:text-tan">
                       Services
                     </a>
                   </Link>
 
                   <Link href="/contact">
-                    <a className="px-3 py-2 text-sm font-medium text-gray-300 rounded-md hover:bg-gray-700 hover:text-white">
+                    <a className="px-3 py-2 font-medium text-gray-300 rounded-md text-md hover:text-tan">
                       Contact
                     </a>
                   </Link>
 
                   <Link href="/donate">
-                    <a className="px-3 py-2 text-sm font-medium text-gray-300 rounded-md hover:bg-gray-700 hover:text-white">
+                    <a className="px-3 py-2 font-medium text-gray-300 rounded-md text-dm hover:text-tan">
                       Donate
                     </a>
                   </Link>

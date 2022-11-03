@@ -1,6 +1,6 @@
 import React from 'react'
 
-function staff() {
+function Staff() {
   return (
     <div className='w-11/12 mx-auto outline outline-teal-300'>
         <div>staff</div>
@@ -8,4 +8,4 @@ function staff() {
   )
 }
 
-export default staff
+export default Staff
