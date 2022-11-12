@@ -2,11 +2,11 @@ import React from 'react'
 
 function Services() {
 
-  marriageTR = `Nikah İşlemleri icin bilgiler:Evlenmek isteyen şahıslar öncelikle yaşadığı şehirin "City Hall"'ünden 
+  var marriageTR = `Nikah İşlemleri icin bilgiler:Evlenmek isteyen şahıslar öncelikle yaşadığı şehirin "City Hall"'ünden 
     "Marriage Certifificate" alması gerekiyor. Orada kendisine "Nerede ve hangi tarihte nikah kıymak istiyorsun?"
    Sorusu sorulacak. Cevap olarak "Ulu Cami ve tarih" söylenecek. Sertifika camimizin imamına imzalatilacak. İmamımız,
     isimleri "Nikah Defteri" ne kaydeder. Sertifikayla City Hall'da resmi nikah kıyabilirler.`
-  funeralTR = `Ulu Cami Cenaze işlemleri bilgileri:
+  var funeralTR = `Ulu Cami Cenaze işlemleri bilgileri:
   Yakını vefat eden cenaze sahipleri, isteğe bağlı olarak Ulu Cami telefonu veya camimizin anlaşmalı 
   Funeral Home Servis numarasını arayabilirler.  Cenazenin hastahaneden alınıp, camimize getirilmesi
   kanuni olarak Funeral Home Servisi'nin işidir. Kabir yerini, cenaze sahibi, şahsen mezarlık 
@@ -29,8 +29,8 @@ function Services() {
 
 
   Tel: 973-956-0711   `
-  ceremoniesTR = `Mutfak ve salonumuzu mevlut ve nikah tur organizasyonlariniz icin kiralamak mumkundur.  Bilgi icin arayabilirsiniz `
-  religiousStudiesTR = `Cocuklarimiza ve genclerimize Kuran dersleri verilmektedir. Daha fazla bilgi icin lutfen bize ulasin.`
+  var ceremoniesTR = `Mutfak ve salonumuzu mevlut ve nikah tur organizasyonlariniz icin kiralamak mumkundur.  Bilgi icin arayabilirsiniz `
+  var religiousStudiesTR = `Cocuklarimiza ve genclerimize Kuran dersleri verilmektedir. Daha fazla bilgi icin lutfen bize ulasin.`
   return (
     <div className='w-9/12 mx-auto mt-5'>
       <p className='mb-4 text-3xl font-semibold text-center lg:text-5xl text-blue-magenta'>Services</p>
