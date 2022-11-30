@@ -13,7 +13,7 @@ export default function Home() {
         <div className='flex flex-col items-center p-6 my-5 text-center rounded-xl bg-[#f5dcb2] '>
           <p className='text-3xl font-bold text-blue-magenta'>Announcements</p>
           <div className='w-3/4 text-blue-magenta '>
-            <p>Youth Islam courses have begun! For Boys and Girls <strong>AGE 7 AND OLDER</strong> , our weekend Islam courses will consist of teaching students to read Quran, memorizing basic and advanced surahs, and the foundations of Islam. Classes will be held on Saturdays and Sundays from 9am-1:30pm. </p>
+            <p>Youth Islam courses have begun! For Boys and Girls <strong>AGE 7 AND OLDER</strong> , our weekend Islam courses will consist of teaching students to read Quran, memorizing surahs, and the foundations of Islam. Classes will be held on Saturdays and Sundays from 9am-1:30pm. </p>
           </div>
         </div>
         <div className='flex flex-row justify-center p-6 shadow-lg md:justify-between rounded-xl bg-wisp-pink'>
@@ -27,7 +27,11 @@ export default function Home() {
             <Image className='' src={mosque} alt="There Should be a mosque here" />
           </div>
         </div>
-        <QuickLinks />
+
+        {/* <div className='hidden md:inline'>
+          <QuickLinks />
+        </div> */}
+        
         <div className='flex flex-col justify-center my-5 text-center'>
           <p className='justify-center text-3xl font-bold'>Our Mission</p>
           <p>United Islamic Center is dedicated to providing a safe environment for people to learn and worship in the name of Allah (saw) </p>

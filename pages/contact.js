@@ -5,9 +5,9 @@ import ContactForm from '../components/contactForm'
 function Contact() {
   return (
     <div className='w-9/12 mx-auto shadow-lg rounded-xl bg-wisp-pink lg:flex lg:flex-row lg:justify-center'>
-        <div className='flex flex-row items-center justify-center pt-6 md:justify-between '>
+        <div className='flex flex-row items-center justify-center px-2 pt-6 md:justify-between '>
           <div className='flex flex-col items-center mx-auto lg:mx-6 lg:justify-left lg:items-start'>
-            <p className='text-3xl font-semibold lg:text-5xl text-dark-gray'>United Islamic Center</p>
+            <p className='text-3xl font-semibold text-center md:text-left lg:text-5xl text-dark-gray'>United Islamic Center</p>
             <p className='font-semibold lg:text-xl text-md'>408 Knickerbocker Ave </p>
             <p className='font-semibold lg:text-xl text-md'>Paterson, NJ 07503</p>
             <p className='font-semibold lg:text-xl text-md'>(973) 345-6584</p> 
